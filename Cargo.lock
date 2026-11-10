@@ -3570,6 +3570,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "phf_shared"
+version = "0.14.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6fd9027e2d9319be6349febd1db4e8d02aa544921200c9b777720ac34a3aa89"
+dependencies = [
+ "siphasher",
+]
+
+[[package]]
 name = "pico-args"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4655,7 +4664,7 @@ dependencies = [
  "pcap",
  "phf 0.13.1",
  "phf_codegen",
- "phf_shared 0.13.1",
+ "phf_shared 0.14.0",
  "plotters",
  "plotters-iced",
  "reqwest",
